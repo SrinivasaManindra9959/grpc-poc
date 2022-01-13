@@ -1,0 +1,4 @@
+# Project exclude paths
+/grpc-client/target/
+/grpc-server/target/
+/grpc-stubs/target/

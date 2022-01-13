@@ -1,0 +1,9 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(øóüˆüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÃÍ¹
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(¶„—ì
+N	java:S106("9Replace this use of System.out or System.err by a logger.(¤„Ñğ
+M	java:S106."9Replace this use of System.out or System.err by a logger.(ªÂ¬>
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(á®³¨ıÿÿÿÿ
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8–— Ú/

@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.grpc.poc;
+option java_package = "com.grpc.stub";
+//option java_multiple_files = true;
+//option java_outer_classname = "Airsell";
+
+service Sell{
+  rpc createSell(SellRequest) returns (SellResponse);
+  rpc updateSell(SellRequest) returns (SellResponse);
+  rpc getSells(Empty) returns (SellResponse);
+}
+
+message SellRequest{
+  int32 id = 1;
+  string sellType = 2;
+  bool isHosted = 3;
+  bool isDcs = 4;
+}
+
+message SellResponse{
+  string responseStatus = 1;
+  int32 sellStatus = 2;
+  string isHostedCarrier = 3;
+  string isDcs = 4;
+  repeated SellRequest streamData = 5;
+}
+
+message Empty{
+}
